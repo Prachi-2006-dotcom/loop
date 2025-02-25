@@ -1,0 +1,13 @@
+tuple_1=(1,4.9,16,25,36,49,64,81,100)
+print(type(tuple_1))
+X=49
+i=0
+while i < len(tuple_1):
+    if(tuple_1[i] == X):
+        print("number is found:", i)
+    else:
+        print("finding.....")
+    i+=1        
+        
+    
+
