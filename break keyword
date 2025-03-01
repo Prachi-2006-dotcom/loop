@@ -1,0 +1,10 @@
+nums = (1,12,23,45,32,64,57,19)
+x=int(input("enter the number to be searched :"))
+i=0
+while i<len(nums):
+  if nums[i]==x:
+    print("the number is found at idx",i)
+    break
+  i+=1
+else:
+  print("the number is not found")
